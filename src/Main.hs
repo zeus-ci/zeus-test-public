@@ -4,3 +4,4 @@ main :: IO ()
 main = do
   putStrLn "Hello, Haskell!"
   putStrLn "Another line"
+  putStrLn "Another line"
