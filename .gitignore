@@ -2,3 +2,4 @@ result
 *.o
 *.hi
 dist
+dist-newstyle
