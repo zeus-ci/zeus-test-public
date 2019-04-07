@@ -5,3 +5,4 @@ main = do
   putStrLn "Hello, Haskell!"
   putStrLn "Welcome"
   putStrLn "Welcome again"
+  putStrLn "Welcome again"
