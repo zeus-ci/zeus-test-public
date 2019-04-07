@@ -11,3 +11,4 @@ main = do
   putStrLn "Welcome 5"
   putStrLn "Welcome 6"
   putStrLn "Welcome 7"
+  putStrLn "Welcome 8"
