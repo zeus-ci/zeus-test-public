@@ -10,3 +10,4 @@ main = do
   putStrLn "Created a test branch"
   putStrLn "tb2"
   putStrLn "tb2 update"
+  putStrLn "New line"
