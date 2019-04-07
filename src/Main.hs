@@ -6,3 +6,4 @@ main = do
   putStrLn "Welcome"
   putStrLn "Welcome again"
   putStrLn "Welcome 2"
+  putStrLn "Welcome 3"
