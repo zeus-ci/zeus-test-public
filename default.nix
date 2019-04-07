@@ -18,7 +18,7 @@ let gitignore = pkgs.callPackage (pkgs.fetchFromGitHub {
 
 in
 pkgs.haskell.packages.${compiler}.developPackage {
-  name = builtins.baseNameOf ./.;
+  name = "test-project";
   root = gitignore.gitignoreSource [".git" "README.md" "result" "dist" "dist-newstyle" ".nd"] ./.;
   overrides = self: super: with pkgs.haskell.lib;
 
