@@ -19,7 +19,7 @@ let gitignore = pkgs.callPackage (pkgs.fetchFromGitHub {
 in
 pkgs.haskell.packages.${compiler}.developPackage {
   name = builtins.baseNameOf ./.;
-  root = gitignore.gitignoreSource [".git" "README.md"] ./.;
+  root = gitignore.gitignoreSource [".git" "README.md" "result"] ./.;
   overrides = self: super: with pkgs.haskell.lib;
 
   # Working on getting this function upstreamed into nixpkgs.
