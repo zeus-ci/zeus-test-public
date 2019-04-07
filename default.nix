@@ -34,9 +34,8 @@ pkgs.haskell.packages.${compiler}.developPackage {
              inherit sha256;
            }) {};
   in {
-    # Don't run a package's test suite
-    # foo = dontCheck super.foo;
-    #
+    cereal = dontCheck super.cereal;
+
     # Don't enforce package's version constraints
     # bar = doJailbreak super.bar;
     #
@@ -68,8 +67,8 @@ pkgs.haskell.packages.${compiler}.developPackage {
   };
   modifier = drv: pkgs.haskell.lib.overrideCabal drv (attrs: {
     buildTools = (attrs.buildTools or []) ++ [
-      pkgs.haskell.packages.${compiler}.cabal-install
-      pkgs.haskell.packages.${compiler}.ghcid
+#      pkgs.haskell.packages.${compiler}.cabal-install
+#      pkgs.haskell.packages.${compiler}.ghcid
     ];
   });
 }
