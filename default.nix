@@ -35,22 +35,6 @@ pkgs.haskell.packages.${compiler}.developPackage {
            }) {};
   in {
     cereal = dontCheck super.cereal;
-
-    # Don't enforce package's version constraints
-    # bar = doJailbreak super.bar;
-    #
-    # Get a specific hackage version straight from hackage. Unlike the above
-    # callHackage approach, this will always succeed if the version is on
-    # hackage. The downside is that you have to specify the hash manually.
-    # aeson = callHackageDirect {
-    #   pkg = "aeson";
-    #   ver = "1.4.2.0";
-    #   sha256 = "0qcczw3l596knj9s4ha07wjspd9wkva0jv4734sv3z3vdad5piqh";
-    # };
-    #
-    # To discover more functions that can be used to modify haskell
-    # packages, run "nix-repl", type "pkgs.haskell.lib.", then hit
-    # <TAB> to get a tab-completed list of functions.
   };
   source-overrides = {
     # Use a specific hackage version using callHackage. Only works if the
