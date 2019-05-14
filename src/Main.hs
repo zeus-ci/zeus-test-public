@@ -4,3 +4,4 @@ main :: IO ()
 main = do
   putStrLn "Hello out there!"
   putStrLn "Line 2"
+  putStrLn "Line 3"
