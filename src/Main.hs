@@ -5,7 +5,6 @@ module Main where
 main :: IO ()
 main = do
   putStrLn "Hello out there!"
-
   putStrLn "Another line"
 
   putStrn "Yet another line"
