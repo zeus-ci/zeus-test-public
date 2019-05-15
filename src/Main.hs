@@ -10,4 +10,4 @@ main = do
   putStrLn "Another line"
   putStrLn "Another line"
   putStrLn "Another line"
-  putStrn "Another line"
+  putStrn "Yet another line"
