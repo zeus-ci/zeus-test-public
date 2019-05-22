@@ -9,3 +9,4 @@ main = do
   putStrn "Yet another line"
   putStrn "line"
   putStrn "line"
+  putStrn "line"
