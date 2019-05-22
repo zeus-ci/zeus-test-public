@@ -10,3 +10,4 @@ main = do
   putStrn "line"
   putStrn "line"
   putStrn "line"
+  putStrn "line"
