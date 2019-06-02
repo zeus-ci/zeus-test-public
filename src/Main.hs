@@ -12,3 +12,4 @@ main = do
   putStrLn "line"
   putStrLn "line"
   putStrLn "line"
+  putStrLn "line"
