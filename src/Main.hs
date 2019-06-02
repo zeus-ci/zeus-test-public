@@ -1,7 +1,5 @@
 module Main where
 
-------------------------------------------------------------------------------
--- | It all begins here
 main :: IO ()
 main = do
   putStrLn "Hello out there!"
