@@ -8,3 +8,4 @@ main = do
   putStrLn "Hello 4"
   putStrLn "Hello 5"
   putStrLn "Another line"
+  putStrLn "Another line"
