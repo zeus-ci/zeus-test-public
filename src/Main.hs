@@ -22,3 +22,4 @@ main = do
   putStrLn "Another line"
   putStrLn "Another line"
   putStrLn "Another line"
+  putStrLn "Another line"
