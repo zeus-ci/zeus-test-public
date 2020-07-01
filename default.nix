@@ -18,7 +18,7 @@ let gitignore = pkgs.callPackage (pkgs.fetchFromGitHub {
 
 in
 pkgs.haskell.packages.${compiler}.developPackage {
-  name = "test-project";
+  name = "zeus-test-public";
   root = gitignore.gitignoreSource
     [".git" "README.md" "result" "dist" "dist-newstyle" ".nd"]
     ./.;
